@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_background"
+    tools:context=".fragment.LastMatchFragment">
+
+   <android.support.v4.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scrollbars="none">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+         <Spinner
+             android:id="@+id/spinnerTeams"
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:layout_margin="6dp"
+             android:background="@drawable/circle_trans_green"
+             android:entries="@array/league_list">
+
+         </Spinner>
+
+         <android.support.v7.widget.RecyclerView
+             android:id="@+id/rvNTeams"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:paddingBottom="6dp"
+             android:scrollbars="none"
+             tools:itemCount="15">
+
+         </android.support.v7.widget.RecyclerView>
+      </LinearLayout>
+   </android.support.v4.widget.NestedScrollView>
+
+   <ProgressBar
+       android:id="@+id/pgTeams"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal|center_vertical"
+       android:indeterminateTint="@color/colorAccent" />
+</FrameLayout>

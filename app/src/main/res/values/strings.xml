@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">KickBall</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="next_match">Next Match</string>
+    <string name="last_match">Last Match</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="spanish_la_liga">Spanish La Liga</string>
+    <string name="last_match_result">Last Match Result</string>
+    <string name="match_statistics">Match Statistics</string>
+    <string name="wording_onfailure">Failed fetching data</string>
+    <string name="goals">Goals</string>
+    <string name="goal_keeper">Goal Keeper</string>
+    <string name="defender">Defender</string>
+    <string name="mid_fielder">Mid Fielder</string>
+    <string name="forwarder">Forwarder</string>
+    <string name="yellow_cards">Yellow Cards</string>
+    <string name="red_cards">Red Cards</string>
+    <string name="favorite">Favorite</string>
+    <string name="match_schedule">Match Schedule</string>
+    <string name="oops_nothing_here">Oops, Nothing Here..</string>
+    <string name="toolbar">Toolbar</string>
+    <string name="home_team">Home Team</string>
+    <string name="away_team">Away Team</string>
+    <string name="date_event">Date Event</string>
+    <string name="tgl_main">Tgl main</string>
+    <string name="date_sample">14 November 2108</string>
+    <string name="time_sample">20:00</string>
+    <string name="league_name">League name</string>
+    <string name="home_scorer">Home Scorer</string>
+    <string name="away_scorer">Away Scorer</string>
+    <string name="home_gk">Home GK</string>
+    <string name="away_gk">Away GK</string>
+    <string name="home_def">Home Def</string>
+    <string name="away_def">Away Def</string>
+    <string name="home_mid">Home Mid</string>
+    <string name="away_mid">Away Mid</string>
+    <string name="home_forward">Home Forward</string>
+    <string name="away_forward">Away Forward</string>
+    <string name="home_yellow">Home Yellow</string>
+    <string name="away_yellow">Away Yellow</string>
+    <string name="home_red">Home Red</string>
+    <string name="away_red">Away Red</string>
+    <string name="leaving_app">Are you sure you want to leave?</string>
+    <string name="matches">Matches</string>
+    <string name="teams">Teams</string>
+    <string name="search">Search…</string>
+
+    <array name="league_list">
+        <item>Spanish La Liga</item>
+        <item>English Premier League</item>
+        <item>English League Championship</item>
+        <item>German Bundesliga</item>
+        <item>Italian Serie A</item>
+        <item>Polish Ekstraklasa</item>
+        <item>French Ligue 1</item>
+    </array>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:id="@+id/tbLast"
+        android:layout_height="?android:attr/actionBarSize">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:id="@+id/btnBack"
+                android:src="@drawable/ic_back_button"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tvTbTitile"
+                android:layout_toRightOf="@+id/btnBack"
+                android:textColor="@color/white"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="@string/toolbar"/>
+
+            <com.sackcentury.shinebuttonlib.ShineButton
+                android:id="@+id/btnFavorite"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:src="@color/grey_background"
+                app:allow_random_color="false"
+                app:big_shine_color="@color/yellow"
+                app:btn_color="@color/grey_background"
+                app:btn_fill_color="@color/yellow"
+                app:click_animation_duration="200"
+                app:enable_flashing="false"
+                app:shine_animation_duration="1500"
+                app:shine_count="8"
+                app:shine_distance_multiple="1.5"
+                app:shine_turn_angle="10"
+                app:siShape="@raw/star"
+                app:small_shine_color="@color/yellow"
+                app:small_shine_offset_angle="20" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+</RelativeLayout>
